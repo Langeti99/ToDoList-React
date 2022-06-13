@@ -5,8 +5,9 @@ export default class PostStatusFilter extends Component {
    constructor(props){
       super(props);
       this.buttons = [
-         {name: 'all', label: 'Все'},
-         {name: 'like', label: 'Понравилось'}
+         {name: 'all', label: 'Всі'},
+         {name: 'like', label: 'Понравилось'},
+         {name: 'important', label: 'Важливі'}
       ]
    }
    render() {
